@@ -3,3 +3,8 @@ body {
     background-color:rgb(34, 40, 40);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.list-heading {
+    font-weight: bold;
+    line-height: 1.6;
+}
