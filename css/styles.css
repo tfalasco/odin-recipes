@@ -1,3 +1,7 @@
+html {
+    box-sizing: border-box;
+}
+
 body {
     color:wheat;
     background-color:rgb(34, 40, 40);
@@ -11,4 +15,33 @@ body {
 
 .credit {
     font-size: small;
+}
+
+.recipe-list {
+    background-color: antiquewhite;
+    padding: 8px;
+    width: 90%;
+    margin: 2em auto;
+}
+
+.recipe-list .header {
+    color: antiquewhite;
+    background-color: cornflowerblue;
+    padding: 20px;
+    text-align: center;
+    margin: 0px 0px 8px 0px;
+}
+
+.recipe-list .unordered {
+    background-color:darksalmon;
+    padding: 20px;
+    text-align: center;
+    margin: 8px 0px 0px 0px;
+}
+
+.recipe-list .list-item {
+    display: inline-block;
+    font-size: larger;
+    padding: 0px 2em;
+    font-weight: bold;
 }
